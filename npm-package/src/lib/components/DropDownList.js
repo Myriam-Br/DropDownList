@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
-function DropDownList({name, label, id, list, onChange, title}){ 
+function DropDownList({name,title , label, id, list, onChange}){ 
   return ( <div className= 'dropdown'>
     <label htmlFor={id}>{title}</label>
     <select defaultValue={'DEFAULT'} id={id} onChange={onChange}>
